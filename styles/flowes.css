@@ -1,0 +1,91 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-nav {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.noto-serif-title {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.inter-description {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+
+
+
+/* Shared Styles */
+
+Body{
+    background-color: #4778ff13;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* Navbar Styles */
+.navbar{
+    margin-top: 30px;
+}
+
+.nav-items {
+
+    justify-content: center;
+    gap: 48px;
+    
+}
+
+.nav-links{
+    gap: 48px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.home{
+    font-weight: bold;
+    color: black;
+}
+
+.color{
+    color: #8987A1;
+}
+
+
+
+
+/* Mobile Responsiveness */
+
+@media screen and (max-width: 576px){
+
+        .navbar .nav-links{
+            display: none;
+        }
+        .navbar img{
+            max-width: 63px;
+            margin: 0 auto;
+        }
+        
+
+}
