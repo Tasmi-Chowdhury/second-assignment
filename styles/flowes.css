@@ -14,6 +14,7 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
+  font-size: 4.05rem;
 }
 
 .inter-description {
@@ -21,9 +22,14 @@
   font-optical-sizing: auto;
   font-weight:normal;
   font-style: normal;
+  font-size: 1.5rem;
 }
 
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 /* Shared Styles */
 
@@ -36,11 +42,19 @@ Body{
     justify-content: space-between;
     align-items: center;
 }
-.max-width{
+.max-width {
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 
+.title {
+    color: #E95A08;
+}
+
+.banner-description {
+    color:rgba(0, 0, 0, 0.5) ;
+}
 
 
 /* Navbar Styles */
@@ -64,8 +78,8 @@ nav ul li{
 }
 
 .home{
-    font-weight: bold;
-    color: black;
+    font-weight: bolder;
+    color: #252432;
 }
 
 .color{
@@ -73,18 +87,66 @@ nav ul li{
 }
 
 
+/* Banner-style */
+.banner-section {
+    margin-top: 120px;
+    height: 28.8rem;
+    align-items: end;
+    /* border: 2px solid red; */
+    
+}
+
+.banner-section .banner-title{
+    margin-bottom: 13px;
+    margin-top: 0px;
+}
+
+.banner-section .banner-description {
+    margin-bottom: 0px;
+}
+.banner-content{
+    flex: 1;
+}
+.banner-img {
+    flex: 1;
+}
+.banner-img img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
 
 
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 576px){
 
+        .navbar,
+        .banner-content {
+            margin: 0 16px;
+        }
         .navbar .nav-links{
             display: none;
+        }
+        .navbar {
+            margin-top: 13px;
         }
         .navbar img{
             max-width: 63px;
             margin: 0 auto;
+        }
+        
+        .banner-section {
+            height: auto;
+            flex-direction: column-reverse;
+            margin-top: 28px;
+            gap: 28px;
+        }
+        .banner-title{
+            font-size: 1.5rem;
+        }
+        .banner-description{
+            font-size: 0.9rem;
         }
         
 
