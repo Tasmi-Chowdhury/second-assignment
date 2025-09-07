@@ -196,6 +196,59 @@ nav ul li{
     font-size: 1.4rem;
 }
 
+
+/* Plants Lover Section */
+.plants-lover {
+    margin-top: 210px;
+    /* border: 2px solid green; */
+    height: auto;
+}
+.flower-store {
+    gap: 60px;
+}
+
+.plants-lover ul {
+    
+    list-style-position: inside;
+    padding-left: 15px;
+
+}
+.flower-plants {
+    /* border: 1px dotted orange; */
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+/* badge */
+.image-box {
+    position: relative;
+    display: inline-block;
+}
+.image-box img{
+    display: block;
+    max-width: 540px;
+    height: auto;
+}
+
+.badge {
+    position: absolute;
+    top: -127px;
+    right: -93px;
+    width: 286px;
+    height: auto;
+
+}
+/* .flower-store img {
+    width: 100%;
+    height: 100%;
+    display: block;
+} */
+
+
+
+
+
+
 /* Mobile Responsiveness */
 
 @media screen and (max-width: 576px){
@@ -213,7 +266,8 @@ nav ul li{
         
 
         .about-plants h1,
-        .banner-content .banner-title {
+        .banner-content .banner-title,
+        .flower-plants h1 {
             font-size: 1.5rem;  
         }
         
@@ -231,11 +285,10 @@ nav ul li{
             margin-top: 28px;
             gap: 28px;
         }
-        .banner-title{
-            font-size: 1.5rem;
-        }
+        
         .banner-description,
-        .about-plants p{
+        .about-plants p,
+        .flower-plants ul li{
             font-size: 0.9rem;
         }
 
@@ -267,6 +320,35 @@ nav ul li{
         .flower-name,
         .price {
             font-size: 1rem;
+        }
+
+        /* Plants Lover Section */
+        .plants-lover {
+            margin-right: 16px;
+            margin-left: 16px;
+            margin-top: 42px;
+
+        }
+        .flower-store {
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        /* Badge */
+        .image-box .badge {
+            display: none;
+        }
+        .flower-store img {
+            width: 100%;
+            height: 100%;
+            display: block;
+}
+        .flower-plants{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .plants-lover ul {
+            padding-left: 10px;
         }
 
 }
