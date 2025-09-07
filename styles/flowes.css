@@ -245,7 +245,118 @@ nav ul li{
 } */
 
 
+/* latest-deal-section  */
 
+.latest-deal {
+    margin-top: 134px;
+    /* border: 2px solid steelblue; */
+    height: auto;
+   
+}
+
+.latest-info {
+    text-align: center;
+}
+
+
+.latest-info h1{
+     margin-bottom: 1rem; 
+
+}
+
+.latest-title {
+    font-size: 1.25rem;
+    color: white;
+}
+
+
+
+
+.z-title {
+    font-size: 2.5rem;
+    color: white;
+}
+
+/* Flex-Layout */
+
+.offer-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 28px;
+    margin-top: 120px;
+
+}
+
+ .layout-01{
+    width: 367px;
+    
+ }
+
+ .layout-02 {
+    width: 753px;
+    height: 423.13px;
+
+ }
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 201px;
+    overflow: hidden;
+    height: 100%;
+    
+}
+
+
+.card a {
+    color: white;
+    margin-top: 19px;
+
+}
+.card-01 {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4)), rgba(0, 0, 0, 0.4)
+     url("../assets/deal-bloom.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 14px;
+
+    margin-bottom: 25px;
+    
+}
+
+.card-02 {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.4)), rgba(0, 0, 0, 0.4)
+    url("../assets/deal-ana.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 14px;
+    
+
+  
+    
+}
+.card-03 {
+   
+    background:linear-gradient(rgba(0, 0, 0, 0.4)), rgba(0, 0, 0, 0.4)
+     url("../assets/deal-zabo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 22px;
+  
+    
+}
+
+.card-03 a {
+    font-size:1.75rem ;
+}
 
 
 
@@ -257,7 +368,8 @@ nav ul li{
 
         .navbar,
         .banner-content,
-        .cards-container {
+        .cards-container,
+        .latest-deal {
             margin: 0 16px;
         }
         .navbar .nav-links{
@@ -267,7 +379,8 @@ nav ul li{
 
         .about-plants h1,
         .banner-content .banner-title,
-        .flower-plants h1 {
+        .flower-plants h1,
+        .latest-info h1 {
             font-size: 1.5rem;  
         }
         
@@ -288,7 +401,8 @@ nav ul li{
         
         .banner-description,
         .about-plants p,
-        .flower-plants ul li{
+        .flower-plants ul li,
+        .latest-info p{
             font-size: 0.9rem;
         }
 
@@ -305,13 +419,15 @@ nav ul li{
             padding: 19px 30px;
         }
 
-        .about-plants {
+        .about-plants,
+        .latest-deal {
             margin: 0 28px;
             margin-bottom: 28px;
 
         }
         
-        .about-plants p{
+        .about-plants p,
+        .latest-info p {
             margin: 0px;
         }
         .flower-name{
@@ -350,5 +466,54 @@ nav ul li{
         .plants-lover ul {
             padding-left: 10px;
         }
+
+        /* Latest-deal-section */
+        .latest-deal{
+            margin-top: 143px;
+        }
+
+        
+
+
+        .offer-container{
+            flex-direction: column;
+            gap: 20px;
+            /* height: auto; */
+        }
+
+        .layout-01, 
+        .layout-02 {
+            width: 100%;
+            height: auto;
+            
+        }
+
+        .card-01,
+        .card-02,
+        .card-03 {
+            border-radius: 14px;
+        }
+
+        .card-01 a,
+        .card-02 a,
+        .card-03 a {
+            font-size: 1rem;
+            margin-top: 19px ;
+        }
+
+        .latest-title,
+        .z-title {
+            font-size: 1.25rem;
+        }
+
+       .offer-container{
+        margin-top: 51px;
+       }
+
+        
+
+    
+    
+    
 
 }
