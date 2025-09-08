@@ -63,14 +63,18 @@ Body{
 
 .btn-primary {
     /* font-size: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
     text-align: center;
     color: white;
     background-color: #E95A08;
-    padding: 19px 80px;
+    /* padding: 19px 80px; */
     border: none;
-    height: 50px;
+    min-height: 50px;
     width: 100%;
+    
 }
 
 /* Navbar Styles */
@@ -359,6 +363,60 @@ nav ul li{
 }
 
 
+/* Join-section */
+.join-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 544px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join {
+    text-align: center;
+    width: 830px;
+    /* border: 2px solid chartreuse; */
+   
+}
+ .join h1{
+    color: white;
+    margin-bottom: 23px;
+ }
+ .join-form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   width: 100%;
+   /* width: 830px; */
+ }
+
+ .join-form input{
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+    padding: 15.5px 20px;
+    border: none;
+    height: 50px;
+    
+ }
+.join-form button{
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #E95A08;
+    padding: 18.98px 53.5px;
+    border: none;
+    height: 50px;
+    width: 186px;
+}
 
 /* Mobile Responsiveness */
 
@@ -502,7 +560,8 @@ nav ul li{
         }
 
         .latest-title,
-        .z-title {
+        .z-title,
+         .join h1 {
             font-size: 1.25rem;
         }
 
@@ -510,9 +569,28 @@ nav ul li{
         margin-top: 51px;
        }
 
-        
+       /* Join-Section */
 
+       .join-section {
+        min-height: 276px;
+        margin-top: 40px;
+       }
+
+       .join {
+        width: 321px;
     
+       }
+       .join-form button{
+        width: 103px;
+        /* padding: 19px 12px ; */
+        text-align: center;
+        
+        
+       }
+
+
+       
+
     
     
 
