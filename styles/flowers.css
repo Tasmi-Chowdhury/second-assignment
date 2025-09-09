@@ -107,7 +107,9 @@ Body{
 .navbar{
     margin-top: 30px;
 }
-
+.navbar img {
+    max-width: 100%;
+}
 .nav-items {
 
     justify-content: center;
@@ -356,7 +358,7 @@ nav ul li{
 }
 .card-01 {
 
-    background: linear-gradient(rgba(0, 0, 0, 0.4)), rgba(0, 0, 0, 0.4)
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
      url("../assets/deal-bloom.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -369,7 +371,7 @@ nav ul li{
 
 .card-02 {
     
-    background: linear-gradient(rgba(0, 0, 0, 0.4)), rgba(0, 0, 0, 0.4)
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
     url("../assets/deal-ana.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -382,7 +384,7 @@ nav ul li{
 }
 .card-03 {
    
-    background:linear-gradient(rgba(0, 0, 0, 0.4)), rgba(0, 0, 0, 0.4)
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))
      url("../assets/deal-zabo.png");
     background-size: cover;
     background-repeat: no-repeat;
