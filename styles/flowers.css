@@ -567,6 +567,9 @@ footer{
             grid-template-columns:repeat(2, 1fr); 
             gap: 28px 20px;
         }
+        .flower-card:nth-child(n+7){
+            display: none;
+        }
         .cards-container .flower-card button{
             padding: 19px 30px;
         }
@@ -624,8 +627,6 @@ footer{
             margin-top: 143px;
         }
 
-        
-
 
         .offer-container{
             flex-direction: column;
@@ -674,7 +675,7 @@ footer{
         width: 321px;
     
        }
-       .join-form button{
+       .join-form .subscribe-btn{
         width: 103px;
         /* padding: 19px 12px ; */
         text-align: center;
